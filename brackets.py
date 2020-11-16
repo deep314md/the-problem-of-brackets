@@ -8,8 +8,6 @@ def get_key(val):
             return key 
 
 string = '{3+4*5}{3+[2*(()1+2)-1]-7} + []{3*(2*x-1)+4}'
-string = '{}}}'
-
 
 bracket_clear = ''
 bracket_index = ''
@@ -44,7 +42,6 @@ if len(bracket_index) % 2 == 0:
 
         else:
             L += 2
-
 
         if len(bracket_index) < L:
             break
