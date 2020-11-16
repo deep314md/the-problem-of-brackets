@@ -24,9 +24,8 @@ if len(bracket_index) % 2 == 0:
     while True: 
 
         bigPart = bracket_index[:L]
-        print(bigPart,' - ', L, ' - ', bracket_index)
-        
         l = int( L/2 )
+        
         firstHalf = bracket_index[:l]
         firstHalf = firstHalf[::-1].swapcase()
 
