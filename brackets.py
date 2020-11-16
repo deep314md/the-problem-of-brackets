@@ -7,7 +7,7 @@ def get_key(val):
         if val == value: 
             return key 
 
-string = '{3+4*5}{3+[2*(()1+2)-1]-7} + []{3*(2*x-1)+4}'
+string = '{3+4*5}{3+[2*(7*(2*x-1)+2)-1]-7} + [3*y-8]*{3*(2*x-1)+4}'
 
 bracket_clear = ''
 bracket_index = ''
